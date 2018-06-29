@@ -9,33 +9,11 @@
 
 This app was generated with [Cookiecutter](https://github.com/audreyr/cookiecutter) using this project template.
 
-### Initial setup
-```bash
-cd Projects
-git clone https://github.com/clamytoe/toepack.git
-cd toepack
-```
-
-#### Anaconda setup
-```bash
-conda env create
-```
-
-#### Regular Python setup
-```bash
-pip install -r requirements.txt
-```
-
-#### Final setup
-```bash
-activate toepack # or source activate toepack
-pip install -e .
-```
-
 ## Usage
 ```bash
-toepack
+cookiecutter https://github.com/clamytoe/toepack
 ```
+Answer the prompts or accept the defaults.
 
 ## Contributing
 Contributions are very welcome. Tests can be run with with `pytest -v`, please ensure that all tests are passing before submitting a pull request. I have also included the following packages that should be used:
