@@ -9,11 +9,25 @@
 
 This app was generated with [Cookiecutter](https://github.com/audreyr/cookiecutter) using this project template.
 
+## Initial setup
+The first thing that you must do is have Cookiecutter installed.
+
+```bash
+pip install --user cookiecutter
+```
+
 ## Usage
 ```bash
 cookiecutter https://github.com/clamytoe/toepack
 ```
 Answer the prompts or accept the defaults.
+
+You could also clone this repo and install it from that copy:
+```bash
+git clone https://github.com/clamytoe/toepack.git
+cookiecutter toepack
+```
+
 
 ## Contributing
 Contributions are very welcome. Tests can be run with with `pytest -v`, please ensure that all tests are passing before submitting a pull request. I have also included the following packages that should be used:
