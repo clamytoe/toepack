@@ -7,7 +7,7 @@
 [![GitHub Stars][stars-image]][stars-url]
 [![License][license-image]][license-url]
 
-This app was generated with [Cookiecutter](https://github.com/audreyr/cookiecutter) using this project template.
+This template's README was generated with [Cookiecutter](https://github.com/audreyr/cookiecutter) using this project.
 
 ## Initial setup
 The first thing that you must do is have Cookiecutter installed.
