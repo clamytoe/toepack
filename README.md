@@ -1,5 +1,5 @@
-# Clamytoe's Project Template (*toepack_clone*)
-> *Bare minimum project templating system.*
+# Clamytoe's Package Template (*toepack*)
+> *Bare minimum Python project templating system based on Cookiecutter.*
 
 ![Python version][python-version]
 [![GitHub issues][issues-image]][issues-url]
@@ -7,7 +7,7 @@
 [![GitHub Stars][stars-image]][stars-url]
 [![License][license-image]][license-url]
 
-This app was generated with [Cookiecutter](https://github.com/audreyr/cookiecutter) along with [@clamytoe's](https://github.com/clamytoe) [toepack](https://github.com/clamytoe/toepack) project template.
+This app was generated with [Cookiecutter](https://github.com/audreyr/cookiecutter) using this project template.
 
 ### Initial setup
 ```bash
