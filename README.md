@@ -29,8 +29,6 @@ git clone https://github.com/clamytoe/toepack.git
 cookiecutter toepack
 ```
 
-I am not adhering to them strictly, but try to clean up what's reasonable.
-
 ## License
 Distributed under the terms of the [MIT](https://opensource.org/licenses/MIT) license, "toepack" is free and open source software.
 
