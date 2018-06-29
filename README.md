@@ -29,6 +29,34 @@ git clone https://github.com/clamytoe/toepack.git
 cookiecutter toepack
 ```
 
+## What does it create?
+If you accept the defaults to the initial questions, this is what the directory structure of your new project will look like:
+```bash
+toepack_clone
+├── .bettercodehub.yml
+├── environment.yml
+├── .gitignore
+├── LICENSE
+├── logging.json
+├── README.md
+├── requirements.txt
+├── setup.py
+├── tests
+│   ├── __init__.py
+│   └── test_toepack_clone.py
+├── toepack_clone
+│   ├── headers.py
+│   ├── __init__.py
+│   ├── log_init.py
+│   └── toepack_clone.py
+└── .travis.yml
+
+2 directories, 15 files
+```
+The **toepack_clone** is the default name of the project and it will change to whatever you enter during that prompt. 
+
+> NOTE: I write a lot of scraping scripts, so the *headers.py* file contains user-agent entries for different browsers and platforms that I use as my headers, delete if you won't be using it.
+ 
 ## License
 Distributed under the terms of the [MIT](https://opensource.org/licenses/MIT) license, "toepack" is free and open source software.
 
