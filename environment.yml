@@ -1,12 +1,7 @@
-name: {{cookiecutter.project_name}}
+name: toepack
 channels:
   - defaults
 dependencies:
-  - flake8=3.5.0
-  - isort=4.3.4
-  - pylint=1.9.2
-  - pytest=3.6.2
   - python=3.6.6
   - pip:
-    - black==18.6b4
     - cookiecutter==1.6.0

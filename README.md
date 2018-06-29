@@ -22,19 +22,12 @@ cookiecutter https://github.com/clamytoe/toepack
 ```
 Answer the prompts or accept the defaults.
 
+### Alternate usage
 You could also clone this repo and install it from that copy:
 ```bash
 git clone https://github.com/clamytoe/toepack.git
 cookiecutter toepack
 ```
-
-
-## Contributing
-Contributions are very welcome. Tests can be run with with `pytest -v`, please ensure that all tests are passing before submitting a pull request. I have also included the following packages that should be used:
-* black
-* flake8
-* isort
-* pylint
 
 I am not adhering to them strictly, but try to clean up what's reasonable.
 
