@@ -1,0 +1,11 @@
+{
+    "full_name": "Martin Uribe",
+    "email_address": "clamytoe@gmail.com",
+    "github_account": "clamytoe",
+    "version": "0.1.0",
+    "year": "2018",
+    "python_version": "3.6.6",
+    "project_name": "toepack_clone",
+    "project_title": "Clamytoe's Project Template",
+    "description": "Bare minimum project templating system."
+}

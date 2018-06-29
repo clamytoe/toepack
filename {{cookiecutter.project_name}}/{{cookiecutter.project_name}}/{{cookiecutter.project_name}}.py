@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+from .log_init import setup_logging
+
+logger = setup_logging()
+
+
+def main():
+    logger.debug("Entering main.")
+    print(f"Successfully installed your project file: tclone")
+    logger.info("Printed default message")
+
+
+if __name__ == "__main__":
+    logger.debug("Running as a module.")
+    main()
