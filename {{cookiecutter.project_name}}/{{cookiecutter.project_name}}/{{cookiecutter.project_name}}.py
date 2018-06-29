@@ -7,8 +7,8 @@ logger = setup_logging()
 
 def main():
     logger.debug("Entering main.")
-    print(f"Successfully installed your project file: tclone")
-    logger.info("Printed default message")
+    logger.info("Printing default message")
+    print(f"Successfully installed your project file: {{cookiecutter.project_name}}")
 
 
 if __name__ == "__main__":
