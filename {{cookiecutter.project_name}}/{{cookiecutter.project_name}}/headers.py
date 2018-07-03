@@ -2,7 +2,6 @@
 
 IE = {
     "Accept": "text/html, application/xhtml+xml, */*",
-    "Accept-Encoding": "gzip, deflate",
     "Accept-Language": "en-US",
     "Connection": "Keep-Alive",
     "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) "
@@ -12,7 +11,6 @@ IE = {
 FIREFOX_LINUX = {
     "Accept": "text/html, application/xhtml+xml, application/xml;q=0.9, "
               "*/*;q=0.8",
-    "Accept-Encoding": "br, gzip, deflate",
     "Accept-Language": "en-GB, en;q=0.5",
     "Connection": "keep-alive",
     "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) "
@@ -22,7 +20,6 @@ FIREFOX_LINUX = {
 CHROME_MOBILE = {
     "Accept": "text/html.application/xhtml+xml, application/xml;q=0.9, "
               "*/*;q=0.8",
-    "Accept-Encoding": "br, gzip, deflate",
     "Accept-Language": "en-us",
     "Connection": "keep-alive",
     "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) "
@@ -33,7 +30,6 @@ CHROME_MOBILE = {
 FIREFOX_MOBILE = {
     "Accept": "text/html.application/xhtml+xml, application/xml;q=0.9, "
               "*/*;q=0.8",
-    "Accept-Encoding": "gzip, deflate",
     "Accept-Language": "en-us",
     "Connection": "keep-alive",
     "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) "
@@ -44,7 +40,6 @@ FIREFOX_MOBILE = {
 SAFARI_MOBILE = {
     "Accept": "text/html.application/xhtml+xml, application/xml;q=0.9, "
               "*/*;q=0.8",
-    "Accept-Encoding": "br, gzip, deflate",
     "Accept-Language": "en-us",
     "Connection": "keep-alive",
     "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) "
