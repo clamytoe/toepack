@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import {{cookiecutter.project_name}}.{{cookiecutter.project_name}} as {{cookiecutter.project_name}}
+import {{cookiecutter.project_name}}
 
 
 def test_main(capfd):
