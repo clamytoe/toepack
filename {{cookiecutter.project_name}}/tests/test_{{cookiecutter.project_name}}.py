@@ -1,4 +1,8 @@
-# -*- coding: utf-8 -*-
+"""
+test_{{cookiecutter.project_name}}.py
+
+Tests for {{cookiecutter.project_name}}.
+"""
 import {{cookiecutter.project_name}}
 
 

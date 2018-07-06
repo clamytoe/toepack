@@ -1,4 +1,8 @@
-# -*- coding: utf-8 -*-
+"""
+log_init.py
+
+Initializes logging for the project.
+"""
 import os
 import json
 import logging.config

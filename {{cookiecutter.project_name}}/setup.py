@@ -1,3 +1,8 @@
+"""
+setup.py
+
+Setup for installing the package.
+"""
 from setuptools import setup, find_packages
 
 import {{cookiecutter.project_name}}

@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+"""
+{{cookiecutter.project_name}}.py
+
+{{project_title}}
+"""
 from .log_init import setup_logging
 
 logger = setup_logging()

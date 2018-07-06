@@ -1,4 +1,8 @@
-# -*- coding: utf-8 -*-
+"""
+headers.py
+
+Sample headers to be used with requests
+"""
 
 IE = {
     "Accept": "text/html, application/xhtml+xml, */*",
