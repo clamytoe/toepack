@@ -54,6 +54,8 @@ Distributed under the terms of the [MIT](https://opensource.org/licenses/MIT) li
 ## Issues
 If you encounter any problems, please [file an issue](https://github.com/clamytoe/toepack/issues) along with a detailed description.
 
+## Changelog
+* **v{{cookiecutter.version}}** Initial commit.
 
 [python-version]:https://img.shields.io/badge/python-{{cookiecutter.python_version}}-brightgreen.svg
 [travis-image]:https://travis-ci.org/{{cookiecutter.github_account}}/{{cookiecutter.project_name}}.svg?branch=master
