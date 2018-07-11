@@ -2,7 +2,7 @@
 """
 {{cookiecutter.project_name}}.py
 
-{{project_title}}
+{{cookiecutter.project_title}}
 """
 from .log_init import setup_logging
 
