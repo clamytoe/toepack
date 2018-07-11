@@ -64,6 +64,7 @@ Distributed under the terms of the [MIT](https://opensource.org/licenses/MIT) li
 If you encounter any problems, please [file an issue](https://github.com/clamytoe/toepack/issues) along with a detailed description.
 
 ## Changelog
+* **v0.1.3** Fixed bug in project_title variable name in the main script template.
 * **v0.1.2** Borrowed some setup.py code from [https://github.com/pypa/sampleproject](https://github.com/pypa/sampleproject)
 * **v0.1.1** Added changelog to README.md file.
 * **v0.1.0** Initial commit.
