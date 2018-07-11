@@ -63,6 +63,8 @@ Distributed under the terms of the [MIT](https://opensource.org/licenses/MIT) li
 ## Issues
 If you encounter any problems, please [file an issue](https://github.com/clamytoe/toepack/issues) along with a detailed description.
 
+## Changelog
+* **v{{cookiecutter.version}}** Initial commit.
 
 [python-version]:https://img.shields.io/badge/python-3.6.6-brightgreen.svg
 [issues-image]:https://img.shields.io/github/issues/clamytoe/toepack.svg
