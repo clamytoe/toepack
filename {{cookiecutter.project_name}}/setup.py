@@ -41,7 +41,7 @@ setup(
         "Intended Audience :: End Users/Desktop",
         "Topic :: Utilities",
         "License :: OSI Approved :: MIT License",
-        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: {{cookiecutter.python_version}}",
     ],
     keywords="python utility",
     packages=find_packages(exclude=["contrib", "docs", "tests"]),
@@ -49,7 +49,7 @@ setup(
     license="MIT",
     entry_points={
         "console_scripts": [
-            "{{cookiecutter.project_name}}={{cookiecutter.project_name}}.{{cookiecutter.project_name}}:main"
+            "{{cookiecutter.project_name}}={{cookiecutter.project_name}}.app:main"
         ],
     },
     project_urls={

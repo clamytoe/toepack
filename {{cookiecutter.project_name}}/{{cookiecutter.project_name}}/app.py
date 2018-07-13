@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-{{cookiecutter.project_name}}.py
+app.py
 
 {{cookiecutter.project_title}}
 """

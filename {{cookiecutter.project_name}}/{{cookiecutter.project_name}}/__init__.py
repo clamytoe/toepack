@@ -1,4 +1,4 @@
-from {{cookiecutter.project_name}}.{{cookiecutter.project_name}} import *
+from {{cookiecutter.project_name}} import *
 
 __author__ = '{{cookiecutter.full_name}}'
 __email__ = '{{cookiecutter.email_address}}'
