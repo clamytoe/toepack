@@ -3,7 +3,7 @@ test_{{cookiecutter.project_name}}.py
 
 Tests for {{cookiecutter.project_name}}.
 """
-import {{cookiecutter.project_name}}
+from {{cookiecutter.project_name}} import app
 
 
 def test_main(capfd):
