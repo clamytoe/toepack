@@ -9,7 +9,7 @@
 [![GitHub Stars][stars-image]][stars-url]
 [![License][license-image]][license-url]
 
-This app was generated with [Cookiecutter](https://github.com/audreyr/cookiecutter) along with [@clamytoe's](https://github.com/clamytoe) [toepack](https://github.com/clamytoe/toepack) project template.
+NOTE: This app was generated with [Cookiecutter](https://github.com/audreyr/cookiecutter) along with [@clamytoe's](https://github.com/clamytoe) [toepack](https://github.com/clamytoe/toepack) project template.
 
 ### Initial setup
 ```bash
@@ -19,18 +19,22 @@ cd {{cookiecutter.project_name}}
 ```
 
 #### Anaconda setup
+If you are an Anaconda user, this command will get you up to speed with the base installation.
 ```bash
 conda env create
+conda activate {{cookiecutter.project_name}}
 ```
 
 #### Regular Python setup
+If you are just using normal Python, this will get you ready, but I highly recommend that you do this in a virtual environment. There are many ways to do this, the simplest using *venv*.
 ```bash
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
 #### Final setup
 ```bash
-activate {{cookiecutter.project_name}} # or source activate {{cookiecutter.project_name}}
 pip install -e .
 ```
 
@@ -42,8 +46,8 @@ pip install -e .
 ## Contributing
 Contributions are very welcome. Tests can be run with with `pytest -v`, please ensure that all tests are passing before submitting a pull request. I have also included the following packages that should be used:
 * black
-* flake8
 * isort
+* pyflakes
 * pylint
 
 I am not adhering to them strictly, but try to clean up what's reasonable.
