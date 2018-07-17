@@ -9,6 +9,21 @@
 
 This template's README was generated with [Cookiecutter](https://github.com/audreyr/cookiecutter) using this project.
 
+The pack will create the basic framework for a commandline utility that can easily be modfied for other purposes. The following will be setup and configured for you:
+
+* Project structure
+* Generic Python .gitignore file
+* Logging, with config and init files
+* setup.py project file
+* BetterCodeHub integration
+* MIT License
+* README.md with badges, like this one
+* Sample headers.py file web scraping
+* Testing with Pytest, with initial test
+* TravisCI integration
+* Virtual environment support, supports Anaconda envs
+
+
 ## Initial setup
 The first thing that you must do is have Cookiecutter installed.
 
