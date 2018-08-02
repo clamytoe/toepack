@@ -8,8 +8,14 @@ import json
 import logging.config
 
 
+module_path = __file__
+pwd = "/".join(module_path.split("/")[:-1])
+filename = "logging.json"
+log_config = os.path.join(pwd, filename)
+
+
 def setup_logging(
-    default_path="logging.json", default_level=logging.INFO, env_key="LOG_CFG"
+    default_path=log_config, default_level=logging.INFO, env_key="LOG_CFG"
 ):
     """Setup logging configuration"""
     path = default_path
