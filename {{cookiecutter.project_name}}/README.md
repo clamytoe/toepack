@@ -44,11 +44,12 @@ pip install -e .
 ```
 
 ## Contributing
-Contributions are very welcome. Tests can be run with with `pytest -v`, please ensure that all tests are passing before submitting a pull request. I have also included the following packages that should be used:
+Contributions are very welcome. Tests can be run with with `pytest -v`, please ensure that all tests are passing and that you've checked your code with the following packages before submitting a pull request:
 * black
 * isort
-* pyflakes
+* pycodestyle
 * pylint
+* pytest-cov
 
 I am not adhering to them strictly, but try to clean up what's reasonable.
 

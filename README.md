@@ -79,6 +79,7 @@ Distributed under the terms of the [MIT](https://opensource.org/licenses/MIT) li
 If you encounter any problems, please [file an issue](https://github.com/clamytoe/toepack/issues) along with a detailed description.
 
 ## Changelog
+* **v0.2.4** Added pytest-coverage to the developer dependencies and replaced flake8 with pycodestyle.
 * **v0.2.3** Fixed a bug with the logging setup. It would only read in config if project started from project directory.
 * **v0.2.2** Disabled logging during tests and prevented log level INFO from displaying in the console.
 * **v0.2.1** Added more detail to the README.md file.
