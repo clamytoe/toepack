@@ -2,11 +2,11 @@ name: {{cookiecutter.project_name}}
 channels:
   - defaults
 dependencies:
-  - isort=4.3.4
-  - pycodestyle=2.4.0
-  - pylint=1.9.2
-  - pytest=3.6.4
-  - pytest-cov=2.5.1
-  - python=3.6.6
+  - isort
+  - pycodestyle
+  - pylint
+  - pytest
+  - pytest-cov
+  - python={{cookiecutter.python_version}}
   - pip:
-    - black==18.6b4
+    - black

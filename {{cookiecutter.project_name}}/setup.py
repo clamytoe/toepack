@@ -45,7 +45,7 @@ setup(
     ],
     keywords="python utility",
     packages=find_packages(exclude=["contrib", "docs", "tests"]),
-    install_requires=["pytest>=3.6.2"],
+    install_requires=["pytest"],
     license="MIT",
     entry_points={
         "console_scripts": [
