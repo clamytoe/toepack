@@ -1,6 +1,5 @@
 black
 isort
-pycodestyle
-pylint==
-pytest==
-pytest-cov=
+mypy
+pytest
+pytest-cov

@@ -2,6 +2,7 @@
 > *{{cookiecutter.description}}*
 
 ![Python version][python-version]
+![Latest version][latest-version]
 [![Build Status][travis-image]][travis-url]
 [![BCH compliance][bch-image]][bch-url]
 [![GitHub issues][issues-image]][issues-url]
@@ -47,8 +48,7 @@ pip install -e .
 Contributions are very welcome. Tests can be run with with `pytest -v`, please ensure that all tests are passing and that you've checked your code with the following packages before submitting a pull request:
 * black
 * isort
-* pycodestyle
-* pylint
+* mypy
 * pytest-cov
 
 I am not adhering to them strictly, but try to clean up what's reasonable.
@@ -63,6 +63,7 @@ If you encounter any problems, please [file an issue](https://github.com/clamyto
 * **v{{cookiecutter.version}}** Initial commit.
 
 [python-version]:https://img.shields.io/badge/python-{{cookiecutter.python_version}}-brightgreen.svg
+[latest-version]:https://img.shields.io/badge/version-{{cookiecutter.version}}-blue.svg
 [travis-image]:https://travis-ci.org/{{cookiecutter.github_account}}/{{cookiecutter.project_name}}.svg?branch=master
 [travis-url]:https://travis-ci.org/{{cookiecutter.github_account}}/{{cookiecutter.project_name}}
 [bch-image]:https://bettercodehub.com/edge/badge/{{cookiecutter.github_account}}/{{cookiecutter.project_name}}?branch=master

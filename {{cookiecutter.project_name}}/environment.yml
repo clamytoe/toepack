@@ -3,8 +3,7 @@ channels:
   - defaults
 dependencies:
   - isort
-  - pycodestyle
-  - pylint
+  - mypy
   - pytest
   - pytest-cov
   - python={{cookiecutter.python_version}}

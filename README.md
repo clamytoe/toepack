@@ -79,6 +79,7 @@ Distributed under the terms of the [MIT](https://opensource.org/licenses/MIT) li
 If you encounter any problems, please [file an issue](https://github.com/clamytoe/toepack/issues) along with a detailed description.
 
 ## Changelog
+* **v0.2.6** Removed unused linters, added mypy and version badge.
 * **v0.2.5** Removed hard set version numbers for the environment/requirement packages.
 * **v0.2.4** Added pytest-coverage to the developer dependencies and replaced flake8 with pycodestyle.
 * **v0.2.3** Fixed a bug with the logging setup. It would only read in config if project started from project directory.
