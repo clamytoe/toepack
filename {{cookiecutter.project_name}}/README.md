@@ -13,7 +13,7 @@
 NOTE: This app was generated with [Cookiecutter](https://github.com/audreyr/cookiecutter) along with [@clamytoe's](https://github.com/clamytoe) [toepack](https://github.com/clamytoe/toepack) project template.
 
 ### Initial setup
-```bash
+```zsh
 cd Projects
 git clone https://github.com/{{cookiecutter.github_account}}/{{cookiecutter.project_name}}.git
 cd {{cookiecutter.project_name}}
@@ -21,26 +21,36 @@ cd {{cookiecutter.project_name}}
 
 #### Anaconda setup
 If you are an Anaconda user, this command will get you up to speed with the base installation.
-```bash
+```zsh
 conda env create
 conda activate {{cookiecutter.project_name}}
 ```
 
+#### Poetry setup
+If you are using poetry, the following will get you going:
+```zsh
+poetry install
+```
+
+If you are already using a virtual environment, that one will be used, otherwise a new one will be created for you under your home directory:
+```zsh
+~/.cache/pypoetry/virtualenvs/{{cookiecutter.project_title}}-py{{cookiecutter.python_version}}
+```
 #### Regular Python setup
 If you are just using normal Python, this will get you ready, but I highly recommend that you do this in a virtual environment. There are many ways to do this, the simplest using *venv*.
-```bash
+```zsh
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
 
 #### Final setup
-```bash
+```zsh
 pip install -e .
 ```
 
 ## Usage
-```bash
+```zsh
 {{cookiecutter.project_name}}
 ```
 

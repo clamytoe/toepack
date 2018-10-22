@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "{{cookiecutter.project_name}}"
+version = "{{cookiecutter.version}}"
+description = "{{cookiecutter.description}}"
+authors = ["{{cookiecutter.full_name}} <{{cookiecutter.email_address}}>"]
+
+[tool.poetry.dependencies]
+black = "*"
+isort = "*"
+mypy = "*"
+pytest-cov = "*"
+python = "^{{cookiecutter.python_version}}"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

@@ -2,6 +2,7 @@
 > *Bare minimum Python project templating system based on Cookiecutter.*
 
 ![Python version][python-version]
+![Latest version][latest-version]
 [![GitHub issues][issues-image]][issues-url]
 [![GitHub forks][fork-image]][fork-url]
 [![GitHub Stars][stars-image]][stars-url]
@@ -15,44 +16,48 @@ The pack will create the basic framework for a commandline utility that can easi
 * Generic Python .gitignore file
 * Logging, with config and init files
 * setup.py project file
-* BetterCodeHub integration
+* [BetterCodeHub](https://bettercodehub.com) integration
 * MIT License
-* README.md with badges, like this one
-* Sample headers.py file web scraping
+* README.md with badges, like this README
+* Sample headers.py file for web scraping
 * Testing with Pytest, with initial test
-* TravisCI integration
-* Virtual environment support, supports Anaconda envs
+* [TravisCI](https://travis-ci.org/) integration
+* Virtual environment support
+    * requirements.txt  ([venv](https://docs.python.org/3/library/venv.html))
+    * environment.yml   ([conda](https://conda.io/docs/))
+    * pyproject.toml    ([poetry](https://poetry.eustace.io/docs/))
 
 
 ## Initial setup
-The first thing that you must do is have Cookiecutter installed.
+The first thing that you must do is have Cookiecutter installed. 
 
-```bash
+```zsh
 pip install --user cookiecutter
 ```
 
 ## Usage
-```bash
+```zsh
 cookiecutter https://github.com/clamytoe/toepack
 ```
 Answer the prompts or accept the defaults.
 
 ### Alternate usage
 You could also clone this repo and install it from that copy:
-```bash
+```zsh
 git clone https://github.com/clamytoe/toepack.git
 cookiecutter toepack
 ```
 
-## What does it create?
+## What does it do?
 If you accept the defaults to the initial questions, this is what the directory structure of your new project will look like:
-```bash
+```zsh
 toepack_clone
 ├── .bettercodehub.yml
 ├── environment.yml
 ├── .gitignore
 ├── LICENSE
 ├── logging.json
+├── pyproject.toml
 ├── README.md
 ├── requirements.txt
 ├── setup.py
@@ -79,6 +84,7 @@ Distributed under the terms of the [MIT](https://opensource.org/licenses/MIT) li
 If you encounter any problems, please [file an issue](https://github.com/clamytoe/toepack/issues) along with a detailed description.
 
 ## Changelog
+* **v0.2.7** Added pyproject.toml for poetry support. 
 * **v0.2.6** Removed unused linters, added mypy and version badge.
 * **v0.2.5** Removed hard set version numbers for the environment/requirement packages.
 * **v0.2.4** Added pytest-coverage to the developer dependencies and replaced flake8 with pycodestyle.
@@ -92,6 +98,7 @@ If you encounter any problems, please [file an issue](https://github.com/clamyto
 * **v0.1.0** Initial commit.
 
 [python-version]:https://img.shields.io/badge/python-3.6.6-brightgreen.svg
+[latest-version]:https://img.shields.io/badge/version-0.2.7-blue.svg
 [issues-image]:https://img.shields.io/github/issues/clamytoe/toepack.svg
 [issues-url]:https://github.com/clamytoe/toepack/issues
 [fork-image]:https://img.shields.io/github/forks/clamytoe/toepack.svg

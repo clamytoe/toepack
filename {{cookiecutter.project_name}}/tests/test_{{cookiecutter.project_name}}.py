@@ -5,12 +5,10 @@ Tests for {{cookiecutter.project_name}}.
 """
 import logging
 
-from {{cookiecutter.project_name}} import app
+from {{cookiecutter.project_name}} import __version__
 
 logging.disable(logging.CRITICAL)
 
 
-def test_main(capfd):
-    app.main()
-    output = capfd.readouterr()[0]
-    assert output.strip() == "Successfully installed your project file: {{cookiecutter.project_name}}"
+def test_version():
+    assert __version__ == '{{cookiecutter.version}}'
