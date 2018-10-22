@@ -26,9 +26,11 @@ conda env create
 conda activate {{cookiecutter.project_name}}
 ```
 
-#### Poetry setup
+#### Pyenv and Poetry setup
 If you are using poetry, the following will get you going:
 ```zsh
+pyenv install {{cookiecutter.python_version}}
+pyenv local {{cookiecutter.python_version}}
 poetry install
 ```
 
