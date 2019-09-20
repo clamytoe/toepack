@@ -4,8 +4,7 @@ setup.py
 Setup for installing the package.
 """
 from setuptools import setup, find_packages
-from os import path
-from io import open
+from pathlib import Path
 
 import {{cookiecutter.project_name}}
 
@@ -13,16 +12,14 @@ VERSION = {{cookiecutter.project_name}}.__version__
 AUTHOR = {{cookiecutter.project_name}}.__author__
 EMAIL = {{cookiecutter.project_name}}.__email__
 
-here = path.abspath(path.dirname(__file__))
-
-with open(path.join(here, "README.md"), encoding="utf-8") as f:
-    long_description = f.read()
+BASE_DIR = Path(__file__).resolve().parent
+README = BASE_DIR.joinpath("README.md")
 
 setup(
     name="{{cookiecutter.project_name}}",
     version=VERSION,
     description="{{cookiecutter.description}} ({{cookiecutter.project_name}})",
-    long_description=long_description,
+    long_description=README.read_text(),
     long_description_content_type="text/markdown",
     url="https://github.com/{{cookiecutter.github_account}}/{{cookiecutter.project_name}}",
     author=AUTHOR,
