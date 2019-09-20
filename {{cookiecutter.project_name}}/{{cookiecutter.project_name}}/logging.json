@@ -18,7 +18,7 @@
       "class": "logging.handlers.RotatingFileHandler",
       "level": "INFO",
       "formatter": "simple",
-      "filename": "{{cookiecutter.project_name}}_info.log",
+      "filename": "logs/{{cookiecutter.project_name}}-info.log",
       "maxBytes": 10485760,
       "backupCount": 10,
       "encoding": "utf8"
@@ -27,7 +27,7 @@
       "class": "logging.handlers.RotatingFileHandler",
       "level": "ERROR",
       "formatter": "simple",
-      "filename": "{{cookiecutter.project_name}}_error.log",
+      "filename": "logs/{{cookiecutter.project_name}}-error.log",
       "maxBytes": 10485760,
       "backupCount": 10,
       "encoding": "utf8"
