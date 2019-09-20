@@ -1,7 +1,7 @@
 name: toepack
 channels:
   - defaults
+  - conda-forge
 dependencies:
-  - python=3.6.6
-  - pip:
-    - cookiecutter==1.6.0
+  - cookiecutter
+  - python>=3.6
