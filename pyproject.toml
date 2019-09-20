@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "toepack"
-version = "0.2.7"
+version = "0.2.8"
 description = "Bare minimum Python project templating system based on Cookiecutter."
 authors = ["Martin Uribe <clamytoe@gmail.com>"]
 
