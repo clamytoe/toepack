@@ -84,6 +84,7 @@ Distributed under the terms of the [MIT](https://opensource.org/licenses/MIT) li
 If you encounter any problems, please [file an issue](https://github.com/clamytoe/toepack/issues) along with a detailed description.
 
 ## Changelog
+* **v0.2.8** Replaced instances of os.path with pathlib.Path and created a logs directory.
 * **v0.2.7** Added pyproject.toml for poetry support. 
 * **v0.2.6** Removed unused linters, added mypy and version badge.
 * **v0.2.5** Removed hard set version numbers for the environment/requirement packages.
@@ -98,7 +99,7 @@ If you encounter any problems, please [file an issue](https://github.com/clamyto
 * **v0.1.0** Initial commit.
 
 [python-version]:https://img.shields.io/badge/python-3.6.6-brightgreen.svg
-[latest-version]:https://img.shields.io/badge/version-0.2.7-blue.svg
+[latest-version]:https://img.shields.io/badge/version-0.2.8-blue.svg
 [issues-image]:https://img.shields.io/github/issues/clamytoe/toepack.svg
 [issues-url]:https://github.com/clamytoe/toepack/issues
 [fork-image]:https://img.shields.io/github/forks/clamytoe/toepack.svg
