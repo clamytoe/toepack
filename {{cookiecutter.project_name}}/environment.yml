@@ -1,11 +1,11 @@
 name: {{cookiecutter.project_name}}
 channels:
   - defaults
+  - conda-forge
 dependencies:
+  - black
   - isort
   - mypy
   - pytest
   - pytest-cov
   - python={{cookiecutter.python_version}}
-  - pip:
-    - black
