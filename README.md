@@ -1,5 +1,5 @@
 # Clamytoe's Package Template (*toepack*)
-> *Bare minimum Python project templating system based on Cookiecutter.*
+> *Simple Python project templating system based on Cookiecutter.*
 
 ![Python version][python-version]
 ![Latest version][latest-version]
