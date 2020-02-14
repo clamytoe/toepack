@@ -3,8 +3,6 @@
 
 ![Python version][python-version]
 ![Latest version][latest-version]
-[![Build Status][travis-image]][travis-url]
-[![BCH compliance][bch-image]][bch-url]
 [![GitHub issues][issues-image]][issues-url]
 [![GitHub forks][fork-image]][fork-url]
 [![GitHub Stars][stars-image]][stars-url]
@@ -26,18 +24,6 @@ conda env create
 conda activate {{cookiecutter.project_name}}
 ```
 
-#### Pyenv and Poetry setup
-If you are using poetry, the following will get you going:
-```zsh
-pyenv install {{cookiecutter.python_version}}
-pyenv local {{cookiecutter.python_version}}
-poetry install
-```
-
-If you are already using a virtual environment, that one will be used, otherwise a new one will be created for you under your home directory:
-```zsh
-~/.cache/pypoetry/virtualenvs/{{cookiecutter.project_title}}-py{{cookiecutter.python_version}}
-```
 #### Regular Python setup
 If you are just using normal Python, this will get you ready, but I highly recommend that you do this in a virtual environment. There are many ways to do this, the simplest using *venv*.
 ```zsh
@@ -76,10 +62,6 @@ If you encounter any problems, please [file an issue](https://github.com/clamyto
 
 [python-version]:https://img.shields.io/badge/python-{{cookiecutter.python_version}}-brightgreen.svg
 [latest-version]:https://img.shields.io/badge/version-{{cookiecutter.version}}-blue.svg
-[travis-image]:https://travis-ci.org/{{cookiecutter.github_account}}/{{cookiecutter.project_name}}.svg?branch=master
-[travis-url]:https://travis-ci.org/{{cookiecutter.github_account}}/{{cookiecutter.project_name}}
-[bch-image]:https://bettercodehub.com/edge/badge/{{cookiecutter.github_account}}/{{cookiecutter.project_name}}?branch=master
-[bch-url]:https://bettercodehub.com/
 [issues-image]:https://img.shields.io/github/issues/{{cookiecutter.github_account}}/{{cookiecutter.project_name}}.svg
 [issues-url]:https://github.com/{{cookiecutter.github_account}}/{{cookiecutter.project_name}}/issues
 [fork-image]:https://img.shields.io/github/forks/{{cookiecutter.github_account}}/{{cookiecutter.project_name}}.svg
