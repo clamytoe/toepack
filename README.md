@@ -10,22 +10,20 @@
 
 This template's README was generated with [Cookiecutter](https://github.com/audreyr/cookiecutter) using this project.
 
-The pack will create the basic framework for a commandline utility that can easily be modfied for other purposes. The following will be setup and configured for you:
+The pack will create the basic framework for a commandline utility that can easily be modified for other purposes. The following will be setup and configured for you:
 
 * Project structure
 * Generic Python .gitignore file
 * Logging, with config and init files
 * setup.py project file
-* [BetterCodeHub](https://bettercodehub.com) integration
 * MIT License
 * README.md with badges, like this README
 * Sample headers.py file for web scraping
 * Testing with Pytest, with initial test
-* [TravisCI](https://travis-ci.org/) integration
 * Virtual environment support
     * requirements.txt  ([venv](https://docs.python.org/3/library/venv.html))
+    * requirements-dev.txt
     * environment.yml   ([conda](https://conda.io/docs/))
-    * pyproject.toml    ([poetry](https://poetry.eustace.io/docs/))
 
 
 ## Initial setup
@@ -52,12 +50,10 @@ cookiecutter toepack
 If you accept the defaults to the initial questions, this is what the directory structure of your new project will look like:
 ```zsh
 toepack_clone
-├── .bettercodehub.yml
 ├── environment.yml
 ├── .gitignore
 ├── LICENSE
 ├── logging.json
-├── pyproject.toml
 ├── README.md
 ├── requirements.txt
 ├── setup.py
@@ -69,9 +65,6 @@ toepack_clone
 │   ├── __init__.py
 │   ├── log_init.py
 │   └── app.py
-└── .travis.yml
-
-2 directories, 15 files
 ```
 The **toepack_clone** is the default name of the project and it will change to whatever you enter during that prompt. 
 
@@ -84,6 +77,7 @@ Distributed under the terms of the [MIT](https://opensource.org/licenses/MIT) li
 If you encounter any problems, please [file an issue](https://github.com/clamytoe/toepack/issues) along with a detailed description.
 
 ## Changelog
+* **v0.2.9** Removed poetry support since I don't really use it and updated the cookiecutter.json file
 * **v0.2.8** Replaced instances of os.path with pathlib.Path and created a logs directory.
 * **v0.2.7** Added pyproject.toml for poetry support. 
 * **v0.2.6** Removed unused linters, added mypy and version badge.
@@ -98,8 +92,8 @@ If you encounter any problems, please [file an issue](https://github.com/clamyto
 * **v0.1.1** Added changelog to README.md file.
 * **v0.1.0** Initial commit.
 
-[python-version]:https://img.shields.io/badge/python-3.6.6-brightgreen.svg
-[latest-version]:https://img.shields.io/badge/version-0.2.8-blue.svg
+[python-version]:https://img.shields.io/badge/python-3.6+-brightgreen.svg
+[latest-version]:https://img.shields.io/badge/version-0.2.9-blue.svg
 [issues-image]:https://img.shields.io/github/issues/clamytoe/toepack.svg
 [issues-url]:https://github.com/clamytoe/toepack/issues
 [fork-image]:https://img.shields.io/github/forks/clamytoe/toepack.svg
