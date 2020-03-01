@@ -1,4 +1,5 @@
 # Clamytoe's Package Template (*toepack*)
+
 > *Simple Python project templating system based on Cookiecutter.*
 
 ![Python version][python-version]
@@ -8,9 +9,7 @@
 [![GitHub Stars][stars-image]][stars-url]
 [![License][license-image]][license-url]
 
-This template's README was generated with [Cookiecutter](https://github.com/audreyr/cookiecutter) using this project.
-
-The pack will create the basic framework for a commandline utility that can easily be modified for other purposes. The following will be setup and configured for you:
+The pack will create the basic framework for a command line utility that can easily be modified for other purposes. The following will be setup and configured for you:
 
 * Project structure
 * Generic Python .gitignore file
@@ -21,12 +20,12 @@ The pack will create the basic framework for a commandline utility that can easi
 * Sample headers.py file for web scraping
 * Testing with Pytest, with initial test
 * Virtual environment support
-    * requirements.txt  ([venv](https://docs.python.org/3/library/venv.html))
-    * requirements-dev.txt
-    * environment.yml   ([conda](https://conda.io/docs/))
-
+  * requirements.txt  ([venv](https://docs.python.org/3/library/venv.html))
+  * requirements-dev.txt
+  * environment.yml   ([conda](https://conda.io/docs/))
 
 ## Initial setup
+
 The first thing that you must do is have Cookiecutter installed. 
 
 ```zsh
@@ -34,20 +33,26 @@ pip install --user cookiecutter
 ```
 
 ## Usage
+
 ```zsh
 cookiecutter https://github.com/clamytoe/toepack
 ```
+
 Answer the prompts or accept the defaults.
 
 ### Alternate usage
+
 You could also clone this repo and install it from that copy:
+
 ```zsh
 git clone https://github.com/clamytoe/toepack.git
 cookiecutter toepack
 ```
 
 ## What does it do?
+
 If you accept the defaults to the initial questions, this is what the directory structure of your new project will look like:
+
 ```zsh
 toepack_clone
 ├── environment.yml
@@ -66,18 +71,28 @@ toepack_clone
 │   ├── log_init.py
 │   └── app.py
 ```
-The **toepack_clone** is the default name of the project and it will change to whatever you enter during that prompt. 
+
+The **toepack_clone** is the default name of the project and it will change to whatever you enter during that prompt.
 
 > NOTE: I write a lot of scraping scripts, so the *headers.py* file contains user-agent entries for different browsers and platforms that I use as my headers, delete if you won't be using it.
- 
+
+## Create your virtual environment
+
+Now that your project's structure has been created, you can now create a virtual environment to work from.
+The README.md file that's created, will tell you how to create your it with normal python or with Anaconda.
+
 ## License
+
 Distributed under the terms of the [MIT](https://opensource.org/licenses/MIT) license, "toepack" is free and open source software.
 
 ## Issues
+
 If you encounter any problems, please [file an issue](https://github.com/clamytoe/toepack/issues) along with a detailed description.
 
 ## Changelog
-* **v0.2.9** Removed poetry support since I don't really use it and updated the cookiecutter.json file
+
+* **v0.3.1** Added flake8 to the requirements-dev.txt and environment.yml files.
+* **v0.3.0** Removed poetry support since I don't really use it and updated the cookiecutter.json file
 * **v0.2.8** Replaced instances of os.path with pathlib.Path and created a logs directory.
 * **v0.2.7** Added pyproject.toml for poetry support. 
 * **v0.2.6** Removed unused linters, added mypy and version badge.
