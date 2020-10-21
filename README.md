@@ -13,7 +13,6 @@ The pack will create the basic framework for a command line utility that can eas
 
 * Project structure
 * Generic Python .gitignore file
-* Logging, with config and init files
 * setup.py project file
 * MIT License
 * README.md with badges, like this README
@@ -26,7 +25,7 @@ The pack will create the basic framework for a command line utility that can eas
 
 ## Initial setup
 
-The first thing that you must do is have Cookiecutter installed. 
+The first thing that you must do is have Cookiecutter installed.
 
 ```zsh
 pip install --user cookiecutter
@@ -49,7 +48,7 @@ git clone https://github.com/clamytoe/toepack.git
 cookiecutter toepack
 ```
 
-## What does it do?
+## What it does
 
 If you accept the defaults to the initial questions, this is what the directory structure of your new project will look like:
 
@@ -58,7 +57,6 @@ toepack_clone
 ├── environment.yml
 ├── .gitignore
 ├── LICENSE
-├── logging.json
 ├── README.md
 ├── requirements.txt
 ├── setup.py
@@ -68,13 +66,12 @@ toepack_clone
 ├── toepack_clone
 │   ├── headers.py
 │   ├── __init__.py
-│   ├── log_init.py
 │   └── app.py
 ```
 
 The **toepack_clone** is the default name of the project and it will change to whatever you enter during that prompt.
 
-> NOTE: I write a lot of scraping scripts, so the *headers.py* file contains user-agent entries for different browsers and platforms that I use as my headers, delete if you won't be using it.
+> NOTE: I write a lot of web scraping scripts, so the *headers.py* file contains user-agent entries for different browsers and platforms that I use as my headers, delete if you won't be using it.
 
 ## Create your virtual environment
 
@@ -91,10 +88,11 @@ If you encounter any problems, please [file an issue](https://github.com/clamyto
 
 ## Changelog
 
+* **v0.4.0** Removed logging fromt the project, I never really use it on my small scripts and always end up removed it.
 * **v0.3.1** Added flake8 to the requirements-dev.txt and environment.yml files.
 * **v0.3.0** Removed poetry support since I don't really use it and updated the cookiecutter.json file
 * **v0.2.8** Replaced instances of os.path with pathlib.Path and created a logs directory.
-* **v0.2.7** Added pyproject.toml for poetry support. 
+* **v0.2.7** Added pyproject.toml for poetry support.
 * **v0.2.6** Removed unused linters, added mypy and version badge.
 * **v0.2.5** Removed hard set version numbers for the environment/requirement packages.
 * **v0.2.4** Added pytest-coverage to the developer dependencies and replaced flake8 with pycodestyle.

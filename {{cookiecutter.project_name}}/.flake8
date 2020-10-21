@@ -3,12 +3,11 @@
 # E402: module level import not at top of file
 ignore = E226,E402
 max-line-length = 88
-exclude = 
+exclude =
     .git,
     .idea,
     .pytest_cache,
     .vscode,
     *.egg-info,
     __pycache__,
-    logs,
 max-complexity = 10
