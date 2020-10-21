@@ -108,7 +108,7 @@ If you encounter any problems, please [file an issue](https://github.com/clamyto
 * **v0.1.0** Initial commit.
 
 [python-version]:https://img.shields.io/badge/python-3.6+-brightgreen.svg
-[latest-version]:https://img.shields.io/badge/version-0.2.9-blue.svg
+[latest-version]:https://img.shields.io/badge/version-0.4.0-blue.svg
 [issues-image]:https://img.shields.io/github/issues/clamytoe/toepack.svg
 [issues-url]:https://github.com/clamytoe/toepack/issues
 [fork-image]:https://img.shields.io/github/forks/clamytoe/toepack.svg
