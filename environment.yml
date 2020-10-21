@@ -1,7 +1,10 @@
 name: toepack
 channels:
-  - defaults
   - conda-forge
+  - defaults
 dependencies:
+  - black
   - cookiecutter
-  - python>=3.6
+  - flake8
+  - isort
+  - python[version='>=3.6']
