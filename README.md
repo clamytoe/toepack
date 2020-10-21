@@ -53,20 +53,22 @@ cookiecutter toepack
 If you accept the defaults to the initial questions, this is what the directory structure of your new project will look like:
 
 ```zsh
-toepack_clone
-├── environment.yml
-├── .gitignore
+.
 ├── LICENSE
 ├── README.md
+├── environment.yml
+├── requirements-dev.txt
 ├── requirements.txt
 ├── setup.py
 ├── tests
-│   ├── __init__.py
-│   └── test_toepack_clone.py
-├── toepack_clone
-│   ├── headers.py
-│   ├── __init__.py
-│   └── app.py
+│   ├── __init__.py
+│   └── test_toepack_clone.py
+└── toepack_clone
+    ├── __init__.py
+    ├── app.py
+    └── headers.py
+
+2 directories, 11 files
 ```
 
 The **toepack_clone** is the default name of the project and it will change to whatever you enter during that prompt.
