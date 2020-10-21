@@ -4,7 +4,7 @@
     "github_account": "clamytoe",
     "version": "0.1.0",
     "year": "2020",
-    "python_version": "3.8",
+    "python_version": "3.8.5",
     "project_name": "toepack_clone",
     "project_title": "Clamytoe's Project Template",
     "description": "Bare minimum Python project templating system based on Cookiecutter."
