@@ -3,5 +3,10 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - pipenv
+  - black
+  - flake8
+  - isort
+  - mypy
+  - pytest
+  - pytest-cov
   - python={{cookiecutter.python_version}}
