@@ -65,15 +65,12 @@ If you accept the defaults to the initial questions, this is what the directory 
 │   └── test_toepack_clone.py
 └── toepack_clone
     ├── __init__.py
-    ├── app.py
-    └── headers.py
+    └── app.py
 
-2 directories, 11 files
+2 directories, 10 files
 ```
 
 The **toepack_clone** is the default name of the project and it will change to whatever you enter during that prompt.
-
-> NOTE: I write a lot of web scraping scripts, so the *headers.py* file contains user-agent entries for different browsers and platforms that I use as my headers, delete if you won't be using it.
 
 ## Create your virtual environment
 
