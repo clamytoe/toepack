@@ -60,6 +60,7 @@ Contributions are very welcome. Tests can be run with with `pytest -v`, please e
 * flake8
 * isort
 * mypy
+* pipenv
 * pytest-cov
 
 I am not adhering to them strictly, but try to clean up what's reasonable.

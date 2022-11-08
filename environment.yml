@@ -7,4 +7,6 @@ dependencies:
   - cookiecutter
   - flake8
   - isort
-  - python[version='>=3.6']
+  - mypy
+  - pipenv
+  - python[version='>=3.10']

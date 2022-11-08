@@ -90,6 +90,7 @@ If you encounter any problems, please [file an issue](https://github.com/clamyto
 
 ## Changelog
 
+* **v0.4.1** Updated for the year 2022.
 * **v0.4.0** Removed logging fromt the project, I never really use it on my small scripts and always end up removed it.
 * **v0.3.1** Added flake8 to the requirements-dev.txt and environment.yml files.
 * **v0.3.0** Removed poetry support since I don't really use it and updated the cookiecutter.json file
@@ -107,7 +108,7 @@ If you encounter any problems, please [file an issue](https://github.com/clamyto
 * **v0.1.1** Added changelog to README.md file.
 * **v0.1.0** Initial commit.
 
-[python-version]:https://img.shields.io/badge/python-3.6+-brightgreen.svg
+[python-version]:https://img.shields.io/badge/python-3.10+-brightgreen.svg
 [latest-version]:https://img.shields.io/badge/version-0.4.0-blue.svg
 [issues-image]:https://img.shields.io/github/issues/clamytoe/toepack.svg
 [issues-url]:https://github.com/clamytoe/toepack/issues

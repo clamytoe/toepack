@@ -34,7 +34,7 @@ setup(
         #   5 - Production/Stable
         #   6 - Mature
         #   7 - Inactive
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 1 - Planning",
         "Intended Audience :: End Users/Desktop",
         "Topic :: Utilities",
         "License :: OSI Approved :: MIT License",
