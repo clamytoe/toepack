@@ -30,12 +30,13 @@ conda activate {{cookiecutter.project_name}}
 
 ### Regular Python setup
 
-If you are just using normal Python, this will get you ready, but I highly recommend that you do this in a virtual environment. There are many ways to do this, the simplest using *venv*.
+If you are just using normal Python, this will get you ready, but I highly recommend that you do this in a virtual environment.
+There are many ways to do this, the simplest using *venv*.
 
 ```zsh
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements-dev.txt
+pip install -r requirements.txt
 ```
 
 ### Final setup
@@ -54,13 +55,13 @@ The output should be: `Successfully installed your project file: {{cookiecutter.
 
 ## Contributing
 
-Contributions are very welcome. Tests can be run with with `pytest -v`, please ensure that all tests are passing and that you've checked your code with the following packages before submitting a pull request:
+Contributions are welcomed.
+Tests can be run with with `pytest -v`, please ensure that all tests are passing and that you've checked your code with the following packages before submitting a pull request:
 
 * black
 * flake8
 * isort
 * mypy
-* pipenv
 * pytest-cov
 
 I am not adhering to them strictly, but try to clean up what's reasonable.
