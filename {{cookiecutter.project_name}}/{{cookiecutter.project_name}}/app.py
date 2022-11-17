@@ -7,7 +7,7 @@ app.py
 
 
 def main():
-    print(f"Successfully installed your project file: {{cookiecutter.project_name}}")
+    print("Successfully installed your project file: {{cookiecutter.project_name}}")
 
 
 if __name__ == "__main__":
