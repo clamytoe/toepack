@@ -87,6 +87,7 @@ If you encounter any problems, please [file an issue](https://github.com/clamyto
 
 ## Changelog
 
+* **v0.4.2** Updated for the year 2023 and python 3.10.12.
 * **v0.4.1** Updated for the year 2022.
 * **v0.4.0** Removed logging fromt the project, I never really use it on my small scripts and always end up removed it.
 * **v0.3.1** Added flake8 to the requirements-dev.txt and environment.yml files.
