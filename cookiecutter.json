@@ -5,7 +5,8 @@
     "version": "0.1.0",
     "year": "{% now 'utc', '%Y' %}",
     "python_version": "3.10.12",
-    "project_name": "toepack_clone",
+    "project_name": "Toepack Clone",
+    "__project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '_')|replace('-', '_') }}",
     "project_title": "Clamytoe's Project Template",
     "description": "Bare minimum Python project templating system based on Cookiecutter.",
     "_copy_without_render": [

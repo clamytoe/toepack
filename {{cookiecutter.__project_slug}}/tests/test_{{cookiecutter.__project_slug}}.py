@@ -1,11 +1,11 @@
 """
-test_{{cookiecutter.project_name}}.py
+test_{{cookiecutter.__project_slug}}.py
 
-Tests for {{cookiecutter.project_name}}.
+Tests for {{cookiecutter.__project_slug}}.
 """
 from os import environ
 from dotenv import load_dotenv
-from {{cookiecutter.project_name}} import __version__
+from {{cookiecutter.__project_slug}} import __version__
 
 
 def test_version():
