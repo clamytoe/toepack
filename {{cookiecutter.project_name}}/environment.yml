@@ -10,3 +10,4 @@ dependencies:
   - pytest
   - pytest-cov
   - python={{cookiecutter.python_version}}
+  - python-dotenv

@@ -4,6 +4,7 @@
 ignore = E226,E402
 max-line-length = 88
 exclude =
+    .env,
     .git,
     .idea,
     .pytest_cache,
