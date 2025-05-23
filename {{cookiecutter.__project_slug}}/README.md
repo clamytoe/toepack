@@ -87,4 +87,4 @@ If you encounter any problems, please [file an issue](https://github.com/clamyto
 [stars-image]:https://img.shields.io/github/stars/{{cookiecutter.github_account}}/{{cookiecutter.__project_slug}}.svg
 [stars-url]:https://github.com/{{cookiecutter.github_account}}/{{cookiecutter.__project_slug}}/stargazers
 [license-image]:https://img.shields.io/github/license/{{cookiecutter.github_account}}/{{cookiecutter.__project_slug}}.svg
-[license-url]:https://github.com/{{cookiecutter.github_account}}/{{cookiecutter.__project_slug}}/blob/master/LICENSE
+[license-url]:https://github.com/{{cookiecutter.github_account}}/{{cookiecutter.__project_slug}}/blob/main/LICENSE
