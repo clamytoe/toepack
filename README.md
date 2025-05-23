@@ -87,6 +87,7 @@ If you encounter any problems, please [file an issue](https://github.com/clamyto
 
 ## Changelog
 
+* **v0.4.4** Updated to use python 3.13, use the main branch, and updated default project name.
 * **v0.4.3** Added support for dotenv.
 * **v0.4.2** Updated for the year 2023 and python 3.10.12.
 * **v0.4.1** Updated for the year 2022.
