@@ -1,11 +1,4 @@
 #!/usr/bin/env python3
-"""
-app.py
-
-{{cookiecutter.project_title}}
-"""
-
-
 def cli():
     try:
         main()
@@ -14,7 +7,11 @@ def cli():
 
 
 def main():
-    print("Successfully installed your project file: {{cookiecutter.__project_slug}}")
+    message = (
+        "{{ cookiecutter.__project_slug }} installed successfully!\n"
+        "You're ready to start building."
+    )
+    print(message)
 
 
 if __name__ == "__main__":

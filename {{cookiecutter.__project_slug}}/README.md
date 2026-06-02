@@ -1,6 +1,6 @@
 # {{cookiecutter.project_title}} (*{{cookiecutter.__project_slug}}*)
 
-> *{{cookiecutter.description}}*
+> *{{cookiecutter.project_description}}*
 
 ![Python version][python-version]
 ![Latest version][latest-version]

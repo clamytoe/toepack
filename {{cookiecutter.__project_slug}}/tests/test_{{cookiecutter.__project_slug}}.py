@@ -5,11 +5,11 @@ Tests for {{cookiecutter.__project_slug}}.
 """
 from os import environ
 from dotenv import load_dotenv
-from {{cookiecutter.__project_slug}} import __version__
+from {{ cookiecutter.__project_slug }} import __version__
 
 
 def test_version():
-    assert __version__ == '{{cookiecutter.version}}'
+    assert __version__ == "{{ cookiecutter.version }}"
 
 
 def test_env():

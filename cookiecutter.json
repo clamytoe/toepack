@@ -1,6 +1,6 @@
 {
-    "full_name": "Martin Uribe",
-    "email_address": "clamytoe@gmail.com",
+    "author_name": "Martin Uribe",
+    "author_email": "clamytoe@gmail.com",
     "github_account": "clamytoe",
     "version": "0.1.0",
     "year": "{% now 'utc', '%Y' %}",
@@ -8,7 +8,7 @@
     "project_name": "toepack_clone",
     "__project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '_')|replace('-', '_') }}",
     "project_title": "Clamytoe's Project Template",
-    "description": "Bare minimum Python project templating system based on Cookiecutter.",
+    "project_description": "Bare minimum Python project templating system based on Cookiecutter.",
     "_copy_without_render": [
         ".env",
         ".gitattributes",
