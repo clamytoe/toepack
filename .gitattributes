@@ -1,0 +1,9 @@
+* text=auto
+
+*.css   diff=css
+*.htm   diff=html
+*.html  diff=html
+*.xhtml diff=html
+*.md    diff=markdown
+*.ipynb diff=python
+*.py    diff=python
