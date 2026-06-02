@@ -5,10 +5,12 @@ Tests for {{cookiecutter.__project_slug}}.
 """
 from os import environ
 from dotenv import load_dotenv
-from {{ cookiecutter.__project_slug }} import __version__
+from {{ cookiecutter.__project_slug }} import __author__, __email__, __version__
 
 
-def test_version():
+def test_project_settings():
+    assert __author__ == "{{ cookiecutter.author_name }}"
+    assert __email__ == "{{ cookiecutter.author_email }}"
     assert __version__ == "{{ cookiecutter.version }}"
 
 
