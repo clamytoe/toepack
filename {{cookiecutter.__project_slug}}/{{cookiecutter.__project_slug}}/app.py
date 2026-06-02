@@ -6,6 +6,13 @@ app.py
 """
 
 
+def cli():
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\nTerminated by user.")
+
+
 def main():
     print("Successfully installed your project file: {{cookiecutter.__project_slug}}")
 

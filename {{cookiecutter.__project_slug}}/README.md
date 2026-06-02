@@ -24,7 +24,7 @@ cd {{cookiecutter.__project_slug}}
 If you are an Anaconda user, this command will get you up to speed with the base installation.
 
 ```zsh
-conda env create
+conda env create -f environment.yml
 conda activate {{cookiecutter.__project_slug}}
 ```
 
@@ -43,6 +43,12 @@ pip install -r requirements.txt
 
 ```zsh
 pip install -e .
+```
+
+### Development setup
+
+```zsh
+pip install -e .[dev]
 ```
 
 ## Usage
