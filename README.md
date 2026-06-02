@@ -55,11 +55,10 @@ If you accept the defaults to the initial questions, this is what the directory 
 ```zsh
 .
 ├── LICENSE
+├── Makefile
 ├── README.md
 ├── environment.yml
-├── requirements-dev.txt
-├── requirements.txt
-├── setup.py
+├── pyproject.toml
 ├── tests
 │   ├── __init__.py
 │   └── test_toepack_clone.py
@@ -67,7 +66,7 @@ If you accept the defaults to the initial questions, this is what the directory 
     ├── __init__.py
     └── app.py
 
-2 directories, 10 files
+2 directories, 9 files
 ```
 
 The **toepack_clone** is the default name of the project and it will change to whatever you enter during that prompt.
@@ -87,6 +86,7 @@ If you encounter any problems, please [file an issue](https://github.com/clamyto
 
 ## Changelog
 
+* **v0.5.0** Modernized the project to be PEP-621 compliant and added Makefile.
 * **v0.4.4** Updated to use python 3.13, use the main branch, and updated default project name.
 * **v0.4.3** Added support for dotenv.
 * **v0.4.2** Updated for the year 2023 and python 3.10.12.
@@ -109,7 +109,7 @@ If you encounter any problems, please [file an issue](https://github.com/clamyto
 * **v0.1.0** Initial commit.
 
 [python-version]:https://img.shields.io/badge/python-3.10+-brightgreen.svg
-[latest-version]:https://img.shields.io/badge/version-0.4.0-blue.svg
+[latest-version]:https://img.shields.io/badge/version-0.5.0-blue.svg
 [issues-image]:https://img.shields.io/github/issues/clamytoe/toepack.svg
 [issues-url]:https://github.com/clamytoe/toepack/issues
 [fork-image]:https://img.shields.io/github/forks/clamytoe/toepack.svg
