@@ -1,8 +1,3 @@
-"""
-test_{{cookiecutter.__project_slug}}.py
-
-Tests for {{cookiecutter.__project_slug}}.
-"""
 from os import environ
 from dotenv import load_dotenv
 from {{ cookiecutter.__project_slug }} import __author__, __email__, __version__
