@@ -65,10 +65,9 @@ Contributions are welcomed.
 Tests can be run with with `pytest -v`, please ensure that all tests are passing and that you've checked your code with the following packages before submitting a pull request:
 
 * black
-* flake8
-* isort
 * mypy
 * pytest-cov
+* ruff
 
 I am not adhering to them strictly, but try to clean up what's reasonable.
 
