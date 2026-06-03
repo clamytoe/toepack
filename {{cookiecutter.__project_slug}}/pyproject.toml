@@ -53,4 +53,10 @@ select = ["D", "E", "F", "I"]
 ignore = []
 
 [tool.mypy]
+python_version = "{{ cookiecutter.python_version }}"
+warn_unused_configs = true
 ignore_missing_imports = true
+disallow_untyped_defs = false
+disallow_incomplete_defs = false
+check_untyped_defs = false
+no_implicit_optional = false

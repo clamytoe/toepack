@@ -25,11 +25,11 @@ dev:
 # Run formatting tools
 format:
 	black .
-	ruff --fix .
+	ruff check --fix .
 
 # Run linting without modifying files
 lint:
-	ruff .
+	ruff check .
 	mypy .
 
 # Run tests
