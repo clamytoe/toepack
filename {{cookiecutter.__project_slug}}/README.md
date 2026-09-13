@@ -30,41 +30,17 @@ conda activate {{cookiecutter.__project_slug}}
 
 ### Final setup
 
-Using `pip`:
-
-```zsh
-pip install -e .
-```
-
-Using `uv`:
-
 ```zsh
 uv sync
 ```
 
-### Development setup
-
-Using `pip`:
-
-```zsh
-pip install -e .[dev]
-```
-
-Using `uv`:
+#### Development setup
 
 ```zsh
 uv sync --group dev
 ```
 
 ## Usage
-
-Using `pip`:
-
-```zsh
-{{cookiecutter.__project_slug}}
-```
-
-Using `uv`:
 
 ```zsh:
 uv run {{cookiecutter.__project_slug}}
