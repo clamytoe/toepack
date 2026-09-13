@@ -28,33 +28,46 @@ conda env create -f environment.yml
 conda activate {{cookiecutter.__project_slug}}
 ```
 
-### Regular Python setup
-
-If you are just using normal Python, this will get you ready, but I highly recommend that you do this in a virtual environment.
-There are many ways to do this, the simplest using *venv*.
-
-```zsh
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
 ### Final setup
+
+Using `pip`:
 
 ```zsh
 pip install -e .
 ```
 
+Using `uv`:
+
+```zsh
+uv sync
+```
+
 ### Development setup
+
+Using `pip`:
 
 ```zsh
 pip install -e .[dev]
 ```
 
+Using `uv`:
+
+```zsh
+uv sync --group dev
+```
+
 ## Usage
+
+Using `pip`:
 
 ```zsh
 {{cookiecutter.__project_slug}}
+```
+
+Using `uv`:
+
+```zsh:
+uv run {{cookiecutter.__project_slug}}
 ```
 
 The output should be: `Successfully installed your project file: {{cookiecutter.__project_slug}}`
